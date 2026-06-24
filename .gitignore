@@ -1,0 +1,8 @@
+.env
+*.ipynb
+api-key.txt
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+app.py
+sap-qa-bot.py

@@ -1,0 +1,30 @@
+
+Q: What is O2C process in SAP?
+A: O2C stands for Order to Cash. It is an end-to-end business process that starts when a customer places an order and ends when payment is received and recorded. In SAP it covers Sales Order, Delivery, Billing and Payment.
+
+Q: What is a Sales Order in SAP?
+A: A Sales Order is a document created in SAP SD module that records a customer's request to purchase goods or services. It contains details like customer name, material, quantity, price, and delivery date. Transaction code is VA01 to create and VA02 to change.
+
+Q: What is the transaction code to create a Sales Order?
+A: VA01 is used to create a Sales Order in SAP. VA02 is used to change an existing Sales Order. VA03 is used to display a Sales Order.
+
+Q: What is a Delivery document in SAP?
+A: A Delivery document is created after a Sales Order to initiate the shipping process. It contains information about what goods need to be picked, packed and shipped to the customer. Transaction code VL01N is used to create outbound delivery.
+
+Q: What is a Billing document in SAP?
+A: A Billing document is created after delivery to invoice the customer. It contains the amount the customer needs to pay. Transaction code VF01 is used to create a billing document.
+
+Q: What is the flow of O2C in SAP?
+A: The O2C flow in SAP is: Sales Order (VA01) → Delivery (VL01N) → Goods Issue (VL02N) → Billing/Invoice (VF01) → Payment Receipt (F-28)
+
+Q: What is Goods Issue in SAP?
+A: Goods Issue is the process of recording that goods have physically left the warehouse. It reduces inventory in SAP. It is done using transaction VL02N by posting goods issue against the delivery document.
+
+Q: What is a Customer Master in SAP?
+A: Customer Master is a record in SAP that contains all information about a customer like name, address, payment terms, and credit limit. It is created using transaction XD01 and is required before creating any Sales Order.
+
+Q: What is Credit Check in SAP O2C?
+A: Credit Check is an automatic check in SAP that verifies if a customer has exceeded their credit limit before processing a Sales Order. If the credit limit is exceeded the order gets blocked and needs approval from credit manager.
+
+Q: What is the role of SD module in O2C?
+A: SAP SD (Sales and Distribution) module manages the entire O2C process. It handles Sales Order processing, pricing, delivery scheduling, shipping, billing and basic credit management.
