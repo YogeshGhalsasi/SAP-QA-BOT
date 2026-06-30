@@ -9,7 +9,7 @@
 
 ---
 <p align="center">
-  <img src="images/banner.jpg" alt="SAP QA Bot Banner" width="100%">
+  <img src="images/banner1.jpg" alt="SAP QA Bot Banner" width="100%">
 </p>
 
 ## 📌 Project Overview
