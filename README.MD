@@ -8,6 +8,9 @@
 ![License](https://img.shields.io/badge/Status-Portfolio_Project-success)
 
 ---
+<p align="center">
+  <img src="images/banner.jpg" alt="SAP QA Bot Banner" width="100%">
+</p>
 
 ## 📌 Project Overview
 
