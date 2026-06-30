@@ -29,9 +29,9 @@ This project demonstrates how Generative AI can improve productivity by providin
 
 ## 🏗️ Solution Architecture
 
-<p align="center">
-<img src="images/architecture.png" width="900">
-</p>
+The SAP QA Bot uses a knowledge-driven approach to answer SAP Order-to-Cash (O2C) questions through an AI-powered conversational interface.
+
+![SAP QA Bot Architecture](./images/Architecture.png)
 
 ---
 
