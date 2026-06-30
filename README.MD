@@ -49,6 +49,11 @@ to deliver fast and accurate responses through an intuitive chat interface.
 | Deployment | Streamlit Cloud |
 
 ---
+## 🏗️ Solution Architecture
+
+The SAP QA Bot uses a knowledge-driven approach to answer SAP Order-to-Cash (O2C) questions through an AI-powered conversational interface.
+
+![SAP QA Bot Architecture](./images/Architecture.png)
 
 ## Project Structure
 
